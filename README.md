@@ -1,3 +1,27 @@
+# resolvendo o projeto
+
+```
+$ npm install validator
+$ npm install @types/validator -D
+$ npm install @types/node -D
+
+```
+
+
+
+# webpack
+```
+$ npm install ts-loader webpack webpack-cli -D
+```
+editar arquivo: webpack.config.js
+
+```
+$ npx webpack -w
+```
+
+# estudando ts
+da aula 091 ate 104
+
 # ts config
 criar o arq tsconfig.json
 ```
@@ -27,7 +51,7 @@ $ npm install @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
 ```
 $ npm install ts-node -D
 ```
-config o code runner em 
+config o code runner em
 .vscode/settings.json
 
 
@@ -36,7 +60,7 @@ config o code runner em
 TS tem
   * module mode - modo de modulos
   * script mode - modo de scripts
-  
+
 E se comportam assim:
   * dois arq com mesma variavel ele reclama. basta exportar que vai para o module mode e resolvido.
   * se eu nao exporto nada ele esta no escopo global do ts.
